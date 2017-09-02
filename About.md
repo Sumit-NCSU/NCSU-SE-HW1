@@ -6,13 +6,14 @@ This is one of my favorite places in Kanpur:
 ![JK Temple](kanpur.jpg)
 
 List of Skills:
+
     * Core Java
     * Databases
     * Spring Framework
     * Android
     * Angular JS
 
-Link to Mentor: @chrisparnin
+Link to Mentor: [@chrisparnin](https://github.com/chrisparnin)
 
 Favorite Code Snippet: 
 
