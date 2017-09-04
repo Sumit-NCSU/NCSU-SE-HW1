@@ -18,15 +18,15 @@ CSC510 Software Engineering HW1
 
 * Concepts:
 1. Additional concerns related to REST APIs:
-   * Ambiguous usage and different interpretations of the Response Codes. For example, on succesfully creating a record, some APIs might retusn Code `200 OK` while others might return Code `201 Created`.
-   * They are difficult to debug: There are a number of things that could go wrong for example - the end point, the route mapping, the request mapping, etc.
+   * Ambiguous usage and different interpretations of the Response Codes. For example, on succesfully creating a record, some APIs might return Code `200 OK` while others might return Code `201 Created`.
+   * They are difficult to debug: There are a number of things that could go wrong at nultiple places, for example - the end point, the route mapping, the request mapping, etc.
    * Difficult to maintain: It is difficult to maintain a large codebase for a REST API as it would involve a lot of refactoring moreover, it could be tricky to remove old endpoints as some users might still be using it.
    * They are closely coupled with HTTP (usually)
 
 2. Benefits and disadvantages of using a RESTful architecture vs. a graph query language:
   
 * Benefits
-  * REST has hypermedia controls, GraphQL does not.
+  * REST offers hypermedia controls, GraphQL does not.
   * REST provides easy chaching unlike GraphQL
   
 * Disadvantages
