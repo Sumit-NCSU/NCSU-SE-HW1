@@ -1,6 +1,6 @@
 var request = require('request');
 
-var token = "token " + ""; //Enter your token here.
+var token = "token " + "<Enter your Token Code here>"; //Enter your token here.
 var owner = "srivassumit"; //Enter your username here.
 var reponame = "se_hw1_sample"; //Enter your reponame here
 var urlroot = "https://api.github.com";
